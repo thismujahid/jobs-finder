@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face{
+    font-family: HyliaSerif;
+    src: url("../Fonts/HyliaSerifBeta-Regular.otf") format("opentype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 82.5%;
+}
+
+body {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+    padding: 5rem 0 0 0;
+}
+header img {
+    width: 60px;
+    margin-right: 20px;
+  }
+header h1.title{
+    margin-bottom: 4rem;
+    font-family: HyliaSerif;
+    letter-spacing: 0.4rem;
+    font-size: 5rem;
+}
+header .order {
+    margin-top: 2rem;
+}
+
+button {
+    margin: 0 1rem;
+    color: #1195c9;
+    border: 2px solid #1195c9;
+    background: #d5f0ff;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 37rem;
+    margin: 1rem auto;
+}
+
+form input{
+    width: 100%;
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    color: #1195c9;
+    border: 2px solid #1195c9;
+    outline: none;
+}
+.job-list {
+    max-width: 96rem;
+    margin: 4rem auto;
+}
+
+.job-list ul {
+    padding: 0;
+}
+
+.job-list li {
+    list-style-type: none;
+    background: white;
+    padding: 1.6rem;
+    margin: 1.6rem 0;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+
+.job-list h2 {
+    margin: 0 0 1rem;
+    text-transform: capitalize;
+}
+
+.salary {
+    display: flex;
+}
+
+.job-list .salary img {
+    width: 2rem;
+}
+
+.salary p {
+    color: #17bf66;
+    font-weight: bold;
+    margin: 1rem 0.4rem;
+}
